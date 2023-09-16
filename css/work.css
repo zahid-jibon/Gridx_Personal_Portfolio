@@ -1,0 +1,234 @@
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    scroll-behavior: smooth;
+    color: #949597;
+    background-color: #F7F9FC;
+    line-height: 19.2px;
+}
+
+/* work Nav */
+.cro-dynamic {
+    padding-top: 65px;
+}
+
+.cro-navbar{
+    margin-top: 12px;
+}
+
+.container{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cro-navbar-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cro-navbar-img-logo{
+    display: inline-block;
+    z-index: 16;
+}
+
+.cro-navbar-img-logoImg{
+    display: block;
+}
+
+.cro-navbar-nav{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cro-navbar-nav-ul{
+    display: flex;
+    align-items: center;
+    gap: 49px;
+    margin: 0;
+    padding: 0;
+}
+
+.cro-navbar-nav-li{
+    list-style: none;
+}
+
+.cro-navbar-nav-li a{
+    font-size: 16px;
+    color: #676767;
+    transition: .3s;
+    display: block;
+    padding: 26px 0px;
+    text-decoration: none;
+}
+
+.cro-navbar-nav-li.liThree a{
+    color: #6480F6;
+}
+
+.cro-navbar-nav-li a:hover{
+    color: #6480F6;
+}
+
+.cro-navbar-logIn .theme-btn{
+    color: #fff;
+    display: inline-block;
+    transition: .3s;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 30px;
+    background-color: rgb(50, 50, 50);
+}
+
+.cro-navbar-logIn .theme-btn:hover{
+    background-color: #6480F6;
+}
+
+/* Footer */
+.cro-footer {
+    padding-top: 128px;
+    padding-bottom: 78px;
+}
+
+.footer-content.text-center {
+    text-align: center!important;
+}
+
+.footer-content text-center a.logo {
+    display: inline-block;
+}
+
+.footer-content text-center a.logo img {
+    display: block;
+}
+
+ul#menu-footer-menu {
+    margin: 33px 0 37px 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 44px;
+    flex-wrap: wrap;
+}
+
+ul#menu-footer-menu li {
+    list-style: none;
+}
+
+ul#menu-footer-menu li a{
+    color: #676767;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.1px;
+    font-weight: 600;
+    transition: .3s;
+    text-decoration: none;
+}
+
+ul#menu-footer-menu li a:hover{
+    color: #3C58E3;
+}
+
+.footer-content p.copyright {
+    margin: 0;
+    color: #727272;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footer-content p.copyright span{
+    color: #3C58E3;
+}
+
+/* dynamic */
+.cro-dynamic-wrapper.container {
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+.cro-dynamic-part {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    padding: 16px 16px 26px 16px;
+    background-color: #FFFFFF;
+    position: relative;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.cro-dynamic-imgPart-box-img {
+    border-radius: 30px;
+    margin-bottom: 13px;
+}
+
+img.cro-dynamic-imgPart-box-imgImg {
+    display: block;
+    border-radius: 30px;
+    height: auto;
+    max-width: 100%;
+    border: none;
+    box-shadow: none;
+}
+
+.cro-dynamic-desPart {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+h4.cro-dynamic-desPart-box-h4 {
+    color: #BCBCBC;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+p.cro-dynamic-desPart-box-p {
+    font-size: 22px;
+    color: #0F0F0F;
+    opacity: 0.9;
+    font-weight: 500;
+    margin: 0;
+}
+
+.cro-dynamic-desPart-boxImg {
+    opacity: 0.2;
+    transition: .3s;
+    display: inline-block;
+}
+
+.cro-dynamic-part:hover .cro-dynamic-desPart-boxImg{
+    opacity: 0.9;
+}
+
+/* projects */
+h1.cro-summary-des-h1 {
+    color: #0F0F0F;
+    font-size: 74px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: -01px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 30px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.cro-dynamic-dynamic.project {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
