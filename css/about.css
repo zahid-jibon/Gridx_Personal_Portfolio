@@ -367,13 +367,13 @@ a.cro-about-area-sectionTwo-three-imgOne-link {
     color: #3C58E3;
 }
 
-.cro-about-area-sectionOne-des-btnImg{
+.cro-about-area-sectionOne-des-btn-btnImg{
     display: block;
     opacity: 0.2;
     transition: .3s;
 }
 
-.cro-about-area-sectionThree-client-work:hover .cro-about-area-sectionOne-des-btnImg{
+.cro-about-area-sectionTwo-three:hover .cro-about-area-sectionOne-des-btn-btnImg{
     opacity: 0.9;
 }
 
@@ -422,6 +422,9 @@ h1.cro-about-area-sectionOne-details-tab-imgOne-det-h1 {
     transition: .3s;
 }
 
+.cro-about-area-sectionThree-client-work:hover .cro-about-area-sectionOne-des-btn-btnImg {
+    opacity: 0.9;
+}
 .cro-about-area-sectionOne-details-tab-imgOne:hover .cro-about-area-sectionOne-des-btn-btnImg {
     opacity: 0.9;
 }
