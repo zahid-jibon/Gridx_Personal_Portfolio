@@ -89,6 +89,22 @@ body {
     background-color: #6480F6;
 }
 
+.cro-hamburg{
+    display: none;
+    cursor: pointer;
+}
+
+.cro-bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+}
+
+
 /* About */
 
 .cro-about-area{
@@ -610,24 +626,40 @@ ul#menu-footer-menu li a:hover{
     .cro-about-area-sectionThree{
         flex-direction: row;
     }
+    
+
+
+}
+
+@media (min-width: 586px) and (max-width: 767px) {
+    .cro-about-area-sectionOne-img.about-me-box{
+        width: 80%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 585px) {
+    .cro-about-area-sectionOne-img.about-me-box{
+        flex-direction: column;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-    .cro-navbar{
-        display: none;
-    }
 
     .cro-about-area-sectionOne{
         flex-direction: column;
     }
 
-    .cro-about-area-sectionOne-img.about-me-box{
-        flex-direction: column;
+    .cro-about-area-sectionOne-details {
+        width: 90%;
     }
 
     .cro-about-area-sectionOne-details-tab-img{
         flex-direction: column;
         padding: 50px 46px;
+    }
+
+    img.cro-about-area-sectionOne-details-tab-imgOne-linkImg{
+        width: 100%;
     }
 
     .cro-about-area-sectionTwo{
@@ -651,7 +683,6 @@ ul#menu-footer-menu li a:hover{
     }
 
     .cro-about-area-sectionThree-client{
-        width: auto;
         flex-direction: column;
         margin: 0 10px;
     }
@@ -675,6 +706,43 @@ ul#menu-footer-menu li a:hover{
         letter-spacing: 0.1px;
         font-weight: 600;
         transition: .3s;
+    }
+    /* update- nav */
+    .cro-hamburg{
+        display: block;
+        position: absolute;
+        top: 5px;
+        right: 10px;
+    }
+
+    .cro-hamburg.active .cro-bar:nth-child(2){
+        opacity: 0;
+    }
+    .cro-hamburg.active .cro-bar:nth-child(1){
+        transform: translateY(8px)rotate(45deg);
+    }
+    .cro-hamburg.active .cro-bar:nth-child(3){
+        transform: translateY(-8px)rotate(-45deg);
+    }
+    .cro-navbar-nav-ul,
+    .cro-navbar-logIn{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        transition: 0.5s;
+    }
+
+    .cro-navbar-nav-ul.active,
+    .cro-navbar-nav-ul.active{
+        left: 0;
+    }
+
+    .addMargin{
+        margin-bottom: 250px;
     }
 }
 
