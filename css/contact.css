@@ -410,3 +410,13 @@ button.cro-send-message:hover{
         margin: 0 auto;
     }
 }
+
+/* animation */
+.hidden{
+    opacity: 0;
+    transition: all 5s;
+}
+
+.show{
+    opacity: 1;
+}

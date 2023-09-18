@@ -321,3 +321,13 @@ h1.cro-summary-des-h1 {
         max-width: 700px;
     }
 }
+
+/* animation */
+.hidden{
+    opacity: 0;
+    transition: all 5s;
+}
+
+.show{
+    opacity: 1;
+}
